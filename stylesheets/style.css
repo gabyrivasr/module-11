@@ -1,0 +1,135 @@
+/***
+* Project Name
+**/
+/***
+* Global Variables : this section will be moved separte file.
+**/
+/***
+* Base Styles
+**/
+/* line 11, ../sass/style.scss */
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 17, ../sass/style.scss */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: scale(1, 1) translate(0px, 0px);
+  }
+  30% {
+    transform: scale(1, 0.8) translate(0px, 10px);
+  }
+  75% {
+    transform: scale(1, 1.1) translate(0px, -25px);
+  }
+  100% {
+    transform: scale(1, 1) translate(0px, 0px);
+  }
+}
+/*header start from here*/
+/* line 44, ../sass/style.scss */
+header {
+  height: 180px;
+  background-color: #000;
+  color: black;
+  width: 100%;
+}
+
+/* line 51, ../sass/style.scss */
+#logo {
+  float: left;
+  width: 300px;
+  height: 180px;
+}
+
+/* line 57, ../sass/style.scss */
+#logo p {
+  color: #ffffff;
+  font-size: 6px;
+  padding-top: 130px;
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+}
+
+/* line 65, ../sass/style.scss */
+nav {
+  float: right;
+  padding-top: 79px;
+}
+
+/* line 71, ../sass/style.scss */
+nav ul {
+  list-style-type: none;
+}
+
+/* line 75, ../sass/style.scss */
+nav li {
+  display: inline;
+}
+
+/* line 79, ../sass/style.scss */
+nav li a {
+  color: #ffffff;
+  padding-right: 90px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Helvetica, sans-serif;
+  font-size: 10pt;
+  /*text-transform: capitalize;*/
+}
+
+/* line 90, ../sass/style.scss */
+nav li a:hover {
+  color: #ffff00;
+  transition: 1s;
+}
+
+/* line 96, ../sass/style.scss */
+.showcase_left {
+  float: left;
+  width: 60%;
+}
+
+/* line 101, ../sass/style.scss */
+#showcase h1 {
+  /*  line-height: 80px;*/
+  font-size: 62px;
+  font-family: Helvetica, sans-serif;
+  padding-top: 80px;
+  color: #ffffff;
+}
+
+/* line 110, ../sass/style.scss */
+.cool {
+  display: inline-block;
+  position: relative;
+  font-size: 62px;
+  color: #ffff00;
+}
+
+/* line 118, ../sass/style.scss */
+.showcase_right {
+  min-height: 600px;
+  float: right;
+  width: 40%;
+}
+
+/* line 124, ../sass/style.scss */
+#showcase img {
+  padding-left: 30px;
+  padding-top: 30px;
+  border: 0px solid yellow;
+  border-top-width: 30px;
+  border-left-width: 30px;
+  width: 70%;
+}

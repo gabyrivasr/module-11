@@ -1,0 +1,135 @@
+@import "compass/css3";
+/***
+* Project Name
+**/
+@import 'variables';
+/***
+* Base Styles
+**/
+
+
+body {
+    background-color: $bg-primary;
+    margin: $margin;
+    padding: $padding;
+}
+
+.container {
+    width: 80%;
+    margin: $margin-center;
+    overflow: hidden;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: scale(1, 1) translate(0px, 0px);
+    }
+    30% {
+        transform: scale(1, 0.8) translate(0px, 10px);
+    }
+    75% {
+        transform: scale(1, 1.1) translate(0px, -25px);
+    }
+    100% {
+        transform: scale(1, 1) translate(0px, 0px);
+    }
+}
+
+
+
+/*header start from here*/
+ 
+
+
+header {
+    height: 180px;
+    background-color: $bg-primary;
+    color: black;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+    width: 300px;
+    height: 180px;
+}
+
+#logo p {
+    color: $secondary-color;
+    font-size: 6px;
+    padding-top: 130px;
+    text-transform: $font-upper;
+    font-family: $font;
+}
+
+nav {
+    float: right;
+    padding-top: 79px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: $secondary-color;
+    padding-right: 90px;
+    text-decoration: none;
+    text-transform: $font-upper;
+    font-weight: 500;
+    font-family: $font;
+    font-size: 10pt;
+    /*text-transform: capitalize;*/
+}
+
+nav li a:hover {
+    color: $primary-color;
+    transition: 1s;
+}
+
+
+.showcase_left {
+    float: left;
+    width: 60%;
+}
+
+#showcase h1 {
+  /*  line-height: 80px;*/
+    font-size: 62px;
+    font-family: $font;
+    padding-top: 80px;
+    color:$secondary-color;
+}
+
+
+.cool {
+    display: inline-block;
+    position: relative;
+    font-size: 62px;
+    color:$primary-color;
+}
+
+
+.showcase_right {
+    min-height: 600px;
+    float: right;
+    width: 40%;
+}
+
+#showcase img {
+    padding-left: $distance-30;
+    padding-top: $distance-30;
+    border: 0px solid yellow;
+    border-top-width: $distance-30;
+    border-left-width: $distance-30;
+    width:70%;
+}
+
+
+
+
